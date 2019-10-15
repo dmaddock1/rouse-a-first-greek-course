@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" version="2.0">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+      <dc:title>A First Greek Course</dc:title>
+      <dc:creator>W.H.D. Rouse</dc:creator>
+      <dc:publisher>Blackie &amp; Son, Ltd.</dc:publisher>
+      <dc:format/>
+      <dc:date>1907</dc:date>
+      <dc:subject/>
+      <dc:description/>
+      <dc:rights>NONE</dc:rights>
+      <dc:identifier id="bookid"></dc:identifier>
+      <dc:language>en</dc:language>
+	  <x-metadata>
+		<output encoding="utf-8" content-type="text/x-oeb1-document" />
+	  </x-metadata>	  
+	</metadata>
+	<manifest>
+		<item href="greekcourse.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+		<item href="OEBPS/front.html" id="front" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/preface.html" id="preface" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/toc.html" id="toc" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/ch01.html" id="ch01" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/ch02.html" id="ch02" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/ch03.html" id="ch03" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/ch04.html" id="ch04" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/ch05.html" id="ch05" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/ch06.html" id="ch06" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/ch07.html" id="ch07" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/ch08.html" id="ch08" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/ch09.html" id="ch09" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/ch10.html" id="ch10" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/ch11.html" id="ch11" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/ch12.html" id="ch12" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/ch13.html" id="ch13" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/ch14.html" id="ch14" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/ch15.html" id="ch15" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/ch16.html" id="ch16" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/ch17.html" id="ch17" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/ch18.html" id="ch18" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/ch19.html" id="ch19" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/ch20.html" id="ch20" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/compendium.html" id="compendium" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/syntax.html" id="syntax" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/accent.html" id="accent" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/vocab1.html" id="vocab1" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/vocab2.html" id="vocab2" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/verbs1.html" id="verbs1" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/verbs1s.html" id="verbs1s" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/images/verbs1.jpg" id="verbs1_img" media-type="image/jpeg"/>		
+		<item href="OEBPS/verbs2.html" id="verbs2" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/verbs2s.html" id="verbs2s" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/images/verbs2.jpg" id="verbs2_img" media-type="image/jpeg"/>		
+		<item href="OEBPS/verbs3.html" id="verbs3" media-type="application/xhtml+xml"/>
+		<item href="OEBPS/images/verbs3.jpg" id="verbs3_img" media-type="image/jpeg"/>		
+		<item href="OEBPS/style.css" id="css" media-type="text/css"/>
+		<item href="OEBPS/page-template.xpgt" id="page" media-type="application/vnd.adobe-page-template+xml"/>
+		<item href="OEBPS/images/alphabet.jpg" id="alphabet" media-type="image/jpeg"/>		
+		<item href="OEBPS/images/cover.jpg" id="cover" media-type="image/jpeg"/>		
+	</manifest>
+	<spine toc="ncx">
+		<itemref idref="front" />
+		<itemref idref="preface" />
+		<itemref idref="toc" />
+		<itemref idref="ch01" />
+		<itemref idref="ch02" />
+		<itemref idref="ch03" />
+		<itemref idref="ch04" />
+		<itemref idref="ch05" />
+		<itemref idref="ch06" />
+		<itemref idref="ch07" />
+		<itemref idref="ch08" />
+		<itemref idref="ch09" />
+		<itemref idref="ch10" />
+		<itemref idref="ch11" />
+		<itemref idref="ch12" />
+		<itemref idref="ch13" />
+		<itemref idref="ch14" />
+		<itemref idref="ch15" />
+		<itemref idref="ch16" />
+		<itemref idref="ch17" />
+		<itemref idref="ch18" />
+		<itemref idref="ch19" />
+		<itemref idref="ch20" />
+		<itemref idref="compendium" />
+		<itemref idref="syntax" />
+		<itemref idref="accent" />
+		<itemref idref="vocab1" />
+		<itemref idref="vocab2" />
+	</spine>
+	<guide>
+		<reference href="OEBPS/images/cover.jpg" title="Cover" type="cover"/>
+		<reference href="OEBPS/front.html" title="Title Page" type="title-page"/>
+		<reference href="OEBPS/preface.html" title="Preface" type="preface"/>
+		<reference href="OEBPS/toc.html" title="Contents" type="toc"/>
+	</guide>
+</package>

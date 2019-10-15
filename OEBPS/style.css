@@ -1,0 +1,264 @@
+h1 {
+	text-align: center;
+	font-weight: bold;
+	font-variant: small-caps;
+	margin-top: 2em; margin-bottom: 0.5em;
+}
+
+h2 {
+	text-align: center;
+	font-weight: bold;
+	font-variant: small-caps;
+	margin-top: 1em; margin-bottom: 0.5em;
+}
+
+h3 {
+	text-align: center;
+	font-weight: normal;
+	font-variant: small-caps;
+	margin-top: 1em; margin-bottom: 0.5em;
+}
+
+h4,h5 {
+	text-align: center;
+	font-weight: normal;
+	margin-top: 1em; margin-bottom: 0.5em;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	page-break-inside: avoid;
+	border-collapse:collapse;
+}
+
+caption {
+	display: none;
+}
+
+th {
+	font-weight: normal;
+	padding-right: .2em;
+}
+
+td {
+	font-weight: normal;
+	padding-left:  .5em;
+	padding-right: .5em;
+}
+
+#verbs1 {
+	font-size: small;
+}
+
+table.bdr th, table.bdr td, .bdr,
+#verbs1 th, #verbs1 td  {
+	border-color: black;
+	border-right-style: solid;
+	border-width: 1px;
+}
+
+#bdb th, #bdb td, .bdb {
+	border-color: black;
+	border-bottom-style: solid;
+	border-width: 1px;
+}
+
+.bdr_in td {
+	border-color: black;
+	border-right-style: solid;
+	border-width: 1px;
+}
+
+.bdt {
+	border-color: black;
+	border-top-style: solid;
+	border-width: 1px;
+}
+
+.brace1  {
+	border-color: black;
+	border-right-style: solid;
+	border-width: 1px;
+	border-collapse:separate;
+}
+
+.brace2  {
+	border-color: black;
+	border-right-style: solid;
+	border-width: 3px;
+	border-collapse:separate;
+}
+
+.sm {
+	font-size: small;
+}
+
+.nosc {
+	font-variant: normal;
+}
+
+.sc {
+	font-variant: small-caps;
+}
+
+.chap, #toc, #preface {
+	page-break-before: always;
+	margin-top: 1em;
+}
+
+#frontispiece, #frontmatter {
+	page-break-before: always;
+	margin-top: 1em;
+	text-align: center;
+}
+
+.ill {
+	text-align: center;
+}
+
+.sect {
+	page-break-before: always;
+	margin-top: 1em;
+}
+
+.toc1 {
+	margin-left: 0em;
+	margin-top: .5em;
+}
+.toc2 {
+	margin-left: 1em;
+}
+
+.toc3 {
+	margin-left: 2em;
+}
+
+.c {
+	text-indent: 0em;
+	text-align: center;
+}
+
+.l {
+	text-align: left;
+}
+
+.r {
+	text-align: right;
+}
+
+.inv {
+	margin-left: 1em;
+	text-indent: -1em;
+}
+
+.fn {
+	font-size: small;
+	margin: 0.5em 0 0.5em 3em;
+}
+
+blockquote {
+	margin: 0.5em 0 0.5em 1em;
+}
+
+.poem , .bq {
+	text-align: left;
+	margin: 0.5em 0 0.5em 1em;
+}
+
+.l1 {
+	margin-top: 0em;
+	margin-bottom: 0em;
+	margin-left: 1em;
+	text-indent: -1em;	
+}
+
+.l2 {
+	margin-top: 0em;
+	margin-bottom: 0em;
+	margin-left: 2em;
+	text-indent: -1em;	
+}
+
+.l3 {
+	margin-top: 0em;
+	margin-bottom: 0em;
+	margin-left: 3em;
+	text-indent: -1em;	
+}
+
+.b2 {
+	margin-left: 2em;
+	text-indent: -1em;	
+}
+
+p {
+	text-indent: 1em;
+}
+
+.noindent {
+	text-indent: 0em;
+}
+
+.in3 {
+	text-indent: 0em;
+	margin-left: 3em;
+}
+
+.e {
+	margin-bottom: 0.5em;
+	margin-left: 1em;
+	text-indent: -1em;
+}
+
+body
+{
+font-size: medium;
+line-height: 1.2em;
+margin-top: 1em;
+font-family: Didot, "Times New Roman", Verdana, Arial;
+}
+
+@font-face {
+font-family: "Gentium";
+font-style: normal;
+font-weight: normal;
+src:url(fonts/GenR.ttf);
+}
+
+@font-face {
+font-family: "Gentium";
+font-style: italic;
+font-weight: normal;
+src:url(fonts/GenI.ttf);
+}
+
+@font-face {
+font-family: "Didot";
+font-style: normal;
+font-weight: normal;
+src:url(fonts/GFSDidot.otf);
+}
+
+@font-face {
+font-family: "Didot";
+font-style: normal;
+font-weight: bold;
+src:url(fonts/GFSDidotBold.otf);
+}
+
+@font-face {
+font-family: "Didot";
+font-style: italic;
+font-weight: normal;
+src:url(fonts/GFSDidotItalic.otf);
+}
+
+@font-face {
+font-family: "Didot";
+font-style: italic;
+font-weight: bold;
+src:url(fonts/GFSDidotBoldItalic.otf);
+}
